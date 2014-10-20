@@ -16,6 +16,8 @@ class Array
   end
 end
 
-# insert_sort([4,51,3,8,6,2,9,10,12,18])
+F = Array.new
+F.insert_sort([4,51,3,8,6,2,9,10,12,18])
+
 
 
