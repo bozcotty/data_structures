@@ -12,7 +12,7 @@ My approach to the insertion sort algorithm initially began with me wanting to c
 
 
 ### Part 2 - Merge Sort
-Merge sort involved two functions inside the class Array. One I called merge_sort, which calls itself recursively. The second function is called merging, which is also called inside the merge_sort function to return the final sorted array. Merge_sort breaks up the original unsorted array into halves, while the merging function is responsible for finding the lower number in the arrays being compared and shifting it into the new sorted array.
+Merge sort involved two functions inside the class Array. One I called merge_sort, which calls itself recursively. The second function is called merging, which is also called inside the merge_sort function to return the final sorted array. Merge_sort breaks up the original unsorted array into smaller arrays, while the merging function is responsible for finding the lower number in the arrays being compared and shifting it into the new sorted array.
 
 - #### Benchmark Tests on Merge Sort (1..5000)
 - Best case: .0068 s
