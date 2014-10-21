@@ -53,7 +53,7 @@ class SLL # 'singly linked list'
       prev = n
       n = n.next_node
     end
-    nil
+    return nil
   end
 
   def to_s
