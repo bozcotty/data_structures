@@ -1,4 +1,4 @@
-require 'spec_helper.rb'
+require 'spec_helper'
 
 require 'merge_sort'
 
@@ -12,7 +12,7 @@ describe 'Merge sort method' do
   end
 
   it 'gets benchmarked' do
-    # Ary = Array.new()
+    Msary = Array.new
     puts 'Best Case'
     puts Benchmark.measure { Msary.insert_sort((1..5_000).to_a) }
     puts 'Worst Case'
