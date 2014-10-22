@@ -21,9 +21,9 @@ class Q < SLL
 
   def size_of_q
     if @head.nil?
-      return 0
+      puts 0
     else
-      return size
+      puts size
     end
   end
 end
