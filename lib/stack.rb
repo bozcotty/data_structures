@@ -1,10 +1,9 @@
-require_relative './linked_list'
+require 'linked_list'
 
 class AllOutaStuffError < RuntimeError
 end
 
 class Stack < SLL
-  attr_reader :head, :data
 
   def push(val)
     insert(val)
@@ -20,23 +19,3 @@ class Stack < SLL
     end
   end
 end
-
-s = Stack.new
-p s
-s.push(8)
-p s
-s.push(101)
-p s.to_s
-s.push("Larry")
-p s.to_s
-s.pop
-p s.to_s
-s.pop
-p s.to_s
-s.pop
-p s.to_s
-s.pop
-p s.to_s
-
-
-
