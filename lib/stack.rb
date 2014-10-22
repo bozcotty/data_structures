@@ -16,7 +16,7 @@ class Stack < SLL
     else
       removed = @head
       @head = @head.next_node
-      removed.val
+      return removed.val
     end
   end
 end
@@ -31,5 +31,12 @@ s.push("Larry")
 p s.to_s
 s.pop
 p s.to_s
+s.pop
+p s.to_s
+s.pop
+p s.to_s
+s.pop
+p s.to_s
+
 
 

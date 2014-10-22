@@ -22,10 +22,13 @@ Merge sort involved two functions inside the class Array. One I called merge_sor
 ### Data Structure 1 - Linked List
 I created a linked list in Ruby, along with five functions that can be run on it: inserts a new node at the head, finding it's size, display a node by inputing it's value, removing a node and print out a list of all nodes.
 
+### Data Structure 3 - Stack
+This structure, inherits from Structure 1 - Linked List. It allows the user to add an item to the top of the stack (head of the linked list) and pop the same off the top of the stack. It also returns a custom error message when the user tries to pop an empty stack. Stacks being LIFO, this is all that's allowed!
+
 ## Authors
 * Scott Hale
 
 ## Collaborators
 * Brook Riggio (Algorithm 1)
-* Javier Soto (Linked List)
+* Javier Soto, Ryan Sobol (Linked List, Stack)
 
