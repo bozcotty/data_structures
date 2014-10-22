@@ -1,4 +1,4 @@
-require './linked_list'
+require_relative './linked_list'
 
 class AllOutaStuffError < RuntimeError
 end
@@ -16,6 +16,7 @@ class Stack < SLL
     else
       removed = @head
       @head = @head.next_node
+      removed.val
     end
   end
 end
