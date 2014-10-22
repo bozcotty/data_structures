@@ -3,22 +3,24 @@ require 'linked_list'
 class Q < SLL
 
   def enqueue(val)
-    # adds a new node at the head
+    # adds a (newest) node at the head
     insert(val)
   end
 
-  def dequeue()
-    # takes first node entered out of the queue
+  def dequeue
+    # takes (oldest) node entered out of the queue
     n = head
     n = n.next_node while n.next_node
-    remove n
+    if n.next_node = nil?
+      remove n
+    end
   end
 
   def size_of_q
     if @head == nil
       return 0
     else
-      size
+      return size
     end
   end
 end
