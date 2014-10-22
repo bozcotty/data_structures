@@ -17,10 +17,10 @@ describe 'a Queue' do
 
   it 'can dequeue the oldest entity in the collection' do
     @q.dequeue
-    @q.to_s.must_equal ("7777, 555, 44")
+    @q.to_s.must_equal ("555, 44")
   end
 
   it 'can return the size of the Queue' do
-    puts @q.size
+    puts @q.size.to_s
   end
 end

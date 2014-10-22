@@ -10,10 +10,14 @@ class Q < SLL
   def dequeue
     # takes (oldest) node entered out of the queue
     n = head
-    n = n.next_node while n.next_node
-    if n.next_node = nil?
-      remove n
+    puts n.val
+    puts 'above is n/head initially'
+    while n.next_node
+      n = n.next_node
     end
+    puts n.val
+    puts 'now n is the above'
+    remove(n.val)
   end
 
   def size_of_q
