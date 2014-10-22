@@ -53,7 +53,7 @@ class SLL # 'singly linked list'
       prev = n
       n = n.next_node
     end
-    return nil
+    nil
   end
 
   def to_s
@@ -63,10 +63,6 @@ class SLL # 'singly linked list'
       string << n.val.to_s
       n = n.next_node
     end
-    string.join(", ")
+    string.join(', ')
   end
 end
-
-
-
-

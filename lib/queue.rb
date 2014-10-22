@@ -1,7 +1,6 @@
 require 'linked_list'
 
 class Q < SLL
-
   def enqueue(val)
     # adds a (newest) node at the head
     insert(val)
@@ -21,7 +20,7 @@ class Q < SLL
   end
 
   def size_of_q
-    if @head == nil
+    if @head.nil?
       return 0
     else
       return size
