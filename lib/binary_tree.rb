@@ -1,5 +1,5 @@
 class Node
-  def initialize()
+  def initialize
     @left = nil
     @right = nil
     @value = nil
@@ -8,39 +8,38 @@ class Node
   attr_accessor :left, :right, :value
 end
 
-
 class BinaryTree
   attr_accessor :root
 
-  def initialize()
+  def initialize
     @root = Node.new
   end
 
   def pre_order(node)
     p node.value
-    if node.left != nil
+    unless node.left.nil?
       pre_order(node.left)
     end
-    if node.right != nil
+    unless node.right.nil?
       pre_order(node.right)
     end
   end
 
   def in_order(node)
-    if node.left != nil
+    unless node.left.nil?
       in_order(node.left)
     end
     p node.value
-    if node.right != nil
+    unless node.right.nil?
       in_order(node.right)
     end
   end
 
   def post_order(node)
-    if node.left != nil
+    unless node.left.nil?
       post_order(node.left)
     end
-    if node.right != nil
+    unless node.right.nil?
       post_order(node.right)
     end
     p node.value
@@ -62,45 +61,38 @@ end
 
 bintree = BinaryTree.new
 root = bintree.root
-root.value = "Tim"
+root.value = 'Tim'
 
 node = Node.new
-node.value = "Jony"
+node.value = 'Jony'
 root.left = node
 
 node = Node.new
-node.value = "Dan"
+node.value = 'Dan'
 root.left.left = node
 
 node = Node.new
-node.value = "Katie"
+node.value = 'Katie'
 root.left.right = node
 
 node = Node.new
-node.value = "Peter"
+node.value = 'Peter'
 root.left.right.left = node
 
 node = Node.new
-node.value = "Andrea"
+node.value = 'Andrea'
 root.left.right.right = node
 
 node = Node.new
-node.value = "Phil"
+node.value = 'Phil'
 root.right = node
 
 node = Node.new
-node.value = "Craig"
+node.value = 'Craig'
 root.right.left = node
 
 node = Node.new
-node.value = "Eddie"
+node.value = 'Eddie'
 root.right.right = node
 
 bintree.traversal
-
-
-
-
-
-
-
