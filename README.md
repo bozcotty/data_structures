@@ -29,7 +29,7 @@ This structure, inherits from Structure 1 - Linked List. It allows the user to a
 The Queue also inherits from linked_list.rb. It defines enqueue and dequeue methods as well as a size methhod, in terms of methods inherited from the SLL class of linked_list.rb.
 
 ### Data Structure 4 - Binary Tree
-The binary tree defined here takes a look at Apple's management team and restructures it so that no person in top management oversees more than two other people. It uses a binary tree with the 3 different methods of traversal of the Depth-first variety: pre-oder, in-order, and post-order.
+The binary tree defined here takes a look at Apple's management team and restructures it so that no person in top management oversees more than two other people. It uses a binary tree's three different methods of traversal of the Depth-first variety: pre-order, in-order, and post-order.
 
 ## Authors
 * Scott Hale
@@ -37,4 +37,8 @@ The binary tree defined here takes a look at Apple's management team and restruc
 ## Collaborators
 * Brook Riggio (Algorithm 1)
 * Javier Soto, Ryan Sobol (Linked List, Stack)
+* Nick Manos (Binary Tree)
+
+## Sources
+- http://www.och.cc/blog/index.php?entry=entry070511-152543  (Binary Tree)
 
