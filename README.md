@@ -25,6 +25,9 @@ I created a linked list in Ruby, along with five functions that can be run on it
 ### Data Structure 3 - Stack
 This structure, inherits from Structure 1 - Linked List. It allows the user to add an item to the top of the stack (head of the linked list) and pop the same off the top of the stack. It also returns a custom error message when the user tries to pop an empty stack. Stacks being LIFO, this is all that's allowed!
 
+### Data Structure 4 - Queue
+The Queue also inherits from linked_list.rb. It defines enqueue and dequeue methods as well as a size methhod, in terms of methods inherited from the SLL class of linked_list.rb.
+
 ## Authors
 * Scott Hale
 

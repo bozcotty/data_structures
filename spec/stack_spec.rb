@@ -13,14 +13,13 @@ describe 'build a Stack' do
 
   it 'can insert a new node, only at the head' do
     @stack.push 'Spanky'
-    @stack.to_s.must_equal "Spanky, Curly, Moe, Larry"
+    @stack.to_s.must_equal 'Spanky, Curly, Moe, Larry'
     puts @stack.to_s
   end
 
   it 'can delete a node off the stack, only at the head' do
-    @stack.pop.must_equal "Curly"
-    @stack.to_s.must_equal "Moe, Larry"
+    @stack.pop.must_equal 'Curly'
+    @stack.to_s.must_equal 'Moe, Larry'
     puts @stack.to_s
   end
 end
-

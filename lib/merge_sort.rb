@@ -30,3 +30,7 @@ class Array
     sorted_ary.flatten
   end
 end
+
+a = [3,6,1,2,5,9,8]
+p a.merge_sort
+
