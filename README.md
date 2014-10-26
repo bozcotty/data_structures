@@ -42,4 +42,5 @@ The Queue also inherits from linked_list.rb. It defines enqueue and dequeue meth
 ## Collaborators
 * Brook Riggio (Algorithm 1)
 * Javier Soto, Ryan Sobol (Linked List, Stack)
+* Nick Manos (Radix)
 
