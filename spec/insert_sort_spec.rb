@@ -12,11 +12,12 @@ describe 'Insertion sort method' do
   end
 
   it 'gets benchmarked' do
+    Bary = Array.new
     puts 'Best Case'
-    puts Benchmark.measure { Ary.insert_sort((1..5_000).to_a) }
+    puts Benchmark.measure { Bary.insert_sort((1..5_000).to_a) }
     puts 'Worst Case'
-    puts Benchmark.measure { Ary.insert_sort((5_000.downto(1)).to_a) }
+    puts Benchmark.measure { Bary.insert_sort((5_000.downto(1)).to_a) }
     puts 'Random'
-    puts Benchmark.measure { Ary.insert_sort((1..5_000).to_a.shuffle) }
+    puts Benchmark.measure { Bary.insert_sort((1..5_000).to_a.shuffle) }
   end
 end
