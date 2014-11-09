@@ -2,10 +2,10 @@
 
 // looking forward and back from each item in list
 // constructor function initializes object in js (below 5-13);
-function Car(plate, prev, next) {
-  this.plate = plate;
-  this.prev = prev;
-  this.next = next;
+function Ininety(state, west, east) {
+  this.state = state;
+  this.west = west;
+  this.east = east;
   this.exit = function() {
     this.prev.next = this.next;
     this.next.prev = this.prev;
@@ -40,7 +40,3 @@ console.log(c4);
 // }
 
 // c3.exit();
-
-
-
-

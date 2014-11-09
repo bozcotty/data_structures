@@ -8,7 +8,7 @@ describe 'singly linked list' do
     l.insert(66)
     l.insert(55)
     l.insert(44)
-    l.head.val.must_equal (44)
+    l.head.val.must_equal(44)
     puts l.head.val
   end
 
@@ -29,7 +29,7 @@ describe 'singly linked list' do
     l.insert(55)
     l.insert(33)
     l.insert(11)
-    l.search(55).next_node.val.must_equal (77)
+    l.search(55).next_node.val.must_equal(77)
     puts l.search(55)
   end
 
@@ -51,7 +51,7 @@ describe 'singly linked list' do
     l.insert(77)
     l.insert(55)
     l.insert(33)
-    l.to_s.must_equal ("33, 55, 77, 99")
+    l.to_s.must_equal ('33, 55, 77, 99')
     puts l.to_s
   end
 end

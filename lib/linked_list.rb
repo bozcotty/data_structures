@@ -63,10 +63,6 @@ class SLL # 'singly linked list'
       string << n.val.to_s
       n = n.next_node
     end
-    string.join(", ")
+    string.join(', ')
   end
 end
-
-
-
-

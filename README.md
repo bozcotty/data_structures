@@ -19,13 +19,28 @@ Merge sort involved two functions inside the class Array. One I called merge_sor
 - Worst case: 3.5069 s
 - Random case: 1.7759 s
 
+### Algorithm 4 - Radix Sort
+Radix sort is a non-comparative sort. The items in the array don't consider each other and switch positions. Rather they are sorted a bunch of times, each time iterating through the place values of the numbers in the array. Ten buckets are created on each sort, one for each of the base 10 digits. During each sort, the numbers in the array are placed in one of the 10 buckets, in the order they got into the bucket. By the time the last iteration of the sort is complete, all the numbers are sorted in the final array
+
+- #### Benchmark Tests on Radix Sort (1..5000)
+- Best case: .0075 s
+- Worst case: .0074 s
+- Random case: .0077 s
+
 ### Data Structure 1 - Linked List
 I created a linked list in Ruby, along with five functions that can be run on it: inserts a new node at the head, finding it's size, display a node by inputing it's value, removing a node and print out a list of all nodes.
+
+### Data Structure 3 - Stack
+This structure, inherits from Structure 1 - Linked List. It allows the user to add an item to the top of the stack (head of the linked list) and pop the same off the top of the stack. It also returns a custom error message when the user tries to pop an empty stack. Stacks being LIFO, this is all that's allowed!
+
+### Data Structure 4 - Queue
+The Queue also inherits from linked_list.rb. It defines enqueue and dequeue methods as well as a size methhod, in terms of methods inherited from the SLL class of linked_list.rb.
 
 ## Authors
 * Scott Hale
 
 ## Collaborators
 * Brook Riggio (Algorithm 1)
-* Javier Soto (Linked List)
+* Javier Soto, Ryan Sobol (Linked List, Stack)
+* Nick Manos (Radix)
 
