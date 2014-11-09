@@ -1,5 +1,5 @@
 require 'linked_list'
-
+# Q class for enqueue and dequeue
 class Q < SLL
   def enqueue(val)
     # adds a (newest) node at the head
@@ -11,9 +11,7 @@ class Q < SLL
     n = head
     puts n.val
     puts 'above is n/head initially'
-    while n.next_node
-      n = n.next_node
-    end
+    n = n.next_node while n.next_node
     puts n.val
     puts 'now n is the above'
     remove(n.val)
