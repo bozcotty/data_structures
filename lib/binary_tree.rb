@@ -9,7 +9,7 @@ class Node
   end
 end
 
-
+# Binary Tree
 class BinaryTree
   attr_accessor :root
 
@@ -21,26 +21,17 @@ class BinaryTree
     p node.value
     pre_order(node.left) unless node.left.nil?
     pre_order(node.right) unless node.right.nil?
-    end
   end
 
   def in_order(node)
-    unless node.left.nil?
-      in_order(node.left)
-    end
+    in_order(node.left) unless node.left.nil?
     p node.value
-    unless node.right.nil?
-      in_order(node.right)
-    end
+    in_order(node.right) unless node.right.nil?
   end
 
   def post_order(node)
-    unless node.left.nil?
-      post_order(node.left)
-    end
-    unless node.right.nil?
-      post_order(node.right)
-    end
+    post_order(node.left) unless node.left.nil?
+    post_order(node.right) unless node.right.nil?
     p node.value
   end
 
@@ -95,4 +86,3 @@ node.value = 'Eddie'
 root.right.right = node
 
 bintree.traversal
-
