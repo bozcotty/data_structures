@@ -25,6 +25,3 @@ class Q < SLL
     end
   end
 end
-
-enqueue(a)
-puts a

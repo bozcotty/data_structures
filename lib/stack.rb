@@ -3,6 +3,7 @@ require 'linked_list'
 class AllOutaStuffError < RuntimeError
 end
 
+#
 class Stack < SLL
   def push(val)
     insert(val)
@@ -18,5 +19,3 @@ class Stack < SLL
     end
   end
 end
-
-push(40)
