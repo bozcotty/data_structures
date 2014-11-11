@@ -122,6 +122,6 @@ p qu
 
 qu.peek
 qu.dequeue
-qu.peek
+qu.pe
 
 
