@@ -1,4 +1,4 @@
-require 'linked_list'
+require 'linked_list.rb'
 # Q class for enqueue and dequeue
 class Q < SLL
   def enqueue(val)
@@ -25,3 +25,6 @@ class Q < SLL
     end
   end
 end
+
+enqueue(a)
+puts a

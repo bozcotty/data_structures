@@ -18,3 +18,5 @@ class Stack < SLL
     end
   end
 end
+
+push(40)
