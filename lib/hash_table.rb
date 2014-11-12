@@ -19,18 +19,15 @@ class HashTable
     fail KeyError if key.class != String
     node = Node.new(key, val)
     index = hask(key)
-    # if linklist at array[index] does not yet exist,
-    #   create it
-    #   and insert node as/at head
-    # else
-    #   insert node into existing linkedlist at @array[index]
-    # end
+    if index empty?
+      @head = node
+    else
+      insert(val)
+    end
   end
 
   private
 
   def hash(key)
-    # find a good hash function and insert here
+    key.chars.map(&:ord).reduce(:+)
   end
-
-  # now come up with good tests for 25k words!
