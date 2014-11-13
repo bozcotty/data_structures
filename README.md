@@ -44,7 +44,7 @@ The binary tree defined here takes a look at Apple's management team and restruc
 
 ## Collaborators
 * Brook Riggio (Algorithm 1)
-* Javier Soto, Ryan Sobol (Linked List, Stack)
+* Javier Soto, Ryan Sobol (Linked List, Stack, Hash Table)
 * Nick Manos (Radix, Binary Tree)
 
 ## Sources
