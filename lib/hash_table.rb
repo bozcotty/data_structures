@@ -29,5 +29,5 @@ class HashTable
   private
 
   def hash(key)
-    key.chars.map(&:ord).reduce(:+)
+    #create hash function here...
   end
