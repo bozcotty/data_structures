@@ -19,6 +19,7 @@ Merge sort involved two functions inside the class Array. One I called merge_sor
 - Worst case: 3.5069 s
 - Random case: 1.7759 s
 
+
 ### Algorithm 4 - Radix Sort
 Radix sort is a non-comparative sort. The items in the array don't consider each other and switch positions. Rather they are sorted a bunch of times, each time iterating through the place values of the numbers in the array. Ten buckets are created on each sort, one for each of the base 10 digits. During each sort, the numbers in the array are placed in one of the 10 buckets, in the order they got into the bucket. By the time the last iteration of the sort is complete, all the numbers are sorted in the final array
 
