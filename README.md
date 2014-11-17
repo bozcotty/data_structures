@@ -27,17 +27,22 @@ Radix sort is a non-comparative sort. The items in the array don't consider each
 - Worst case: .0074 s
 - Random case: .0077 s
 
+
 ### Data Structure 1 - Linked List
 I created a linked list in Ruby, along with five functions that can be run on it: inserts a new node at the head, finding it's size, display a node by inputing it's value, removing a node and print out a list of all nodes.
 
+
 ### Data Structure 2 - Stack
-This structure, inherits from Structure 1 - Linked List. It allows the user to add an item to the top of the stack (head of the linked list) and pop the same off the top of the stack. It also returns a custom error message when the user tries to pop an empty stack. Stacks being LIFO, this is all that's allowed!
+This structure, inherits from Structure 1 - Linked List. It allows the user to add an item to the top of the stack (head of the linked list) and pop the same off the top of the stack. It also returns a custom error message when the user tries to pop an empty stack.
+
 
 ### Data Structure 3 - Queue
 The Queue also inherits from linked_list.rb. It defines enqueue and dequeue methods as well as a size methhod, in terms of methods inherited from the SLL class of linked_list.rb.
 
+
 ### Data Structure 4 - Binary Tree
 The binary tree defined here takes a look at Apple's management team and restructures it so that no person in top management oversees more than two other people. It uses a binary tree's three different methods of traversal of the depth-first variety: pre-order, in-order, and post-order.
+
 
 ## Authors
 * Scott Hale
