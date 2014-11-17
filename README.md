@@ -43,7 +43,7 @@ The binary tree defined here takes a look at Apple's management team and restruc
 * Scott Hale
 
 ## Collaborators
-* Brook Riggio (Algorithm 1)
+* Brook Riggio (Insertion Sort)
 * Javier Soto, Ryan Sobol (Linked List, Stack, Hash Table)
 * Nick Manos (Radix, Binary Tree)
 
